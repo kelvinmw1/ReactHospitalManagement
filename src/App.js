@@ -1,12 +1,13 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
 import Activity from './Pages/Activity';
 import Dashboard from './Pages/Dashboard';
 import Patient from './Pages/Patient';
 import Schedule from './Pages/Schedule';
 import Settings from './Pages/Settings';
 import Teams from './Pages/Teams';
+
+//bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
